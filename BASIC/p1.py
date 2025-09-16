@@ -1,0 +1,6 @@
+print("hello world " , 'vishwraj' , sep="*" , end="100")
+print("vishwraj")
+print("Ahemdabad" , "380002" , sep="$$")
+print("Ahemdabad", "380002" ,"parimal")
+Name=input("enter your name")
+print(Name)
