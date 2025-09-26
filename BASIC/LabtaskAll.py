@@ -44,24 +44,12 @@
 #         print("*" , end = " ")
 #     print( )
 
-#--------------------------------------------------------->
-
-# month = input("enter  a month")
-# if month=="january" or month== "march" or month=="may" or month== "july" or "october" or "Descember":
-#       print("31")
-# elif month =="fabruary":
-#       print("28 or 29 days") 
-# elif month== "april" or month=="june" or month=="august" or month== "septamber":
-#       print("30") 
-# else : 
-#       print("invalid number")    
-
 
   
 # # Method no 2 ------------------------------------------->
 
 
-# # month = input("Enter month name")
+# month = input("Enter month name")
 
 # if month in ('January' ,  'March','may' , 'July' , "Descember"): 
 #       print("31 days")
@@ -75,16 +63,17 @@
 
         
 # #Method number 3 ---------------------------------------------->
-#  month = input ("enter  a month")
+#  month = input ("enter month")
  
-#  Macth month: 
-#     case 'January' | 'March' | 'May' |'July' | 'Octomber' | 'December':
+      
+# match month:
+#       case 'January' | 'March' | 'May' |'July' | 'Octomber' | 'December':
 #         print("31 days")
-#      case 'April' | 'June' | 'August' | 'September' | 'Navembe':
+#       case 'April' | 'June' | 'August' | 'September' | 'Navembe':
 #         print("30 days")  
-#     case 'February':
+#       case 'February':
 #         print("28 or 29 days")
-#     case _ :
+#       case_ :
 #         print("Invelid Number") 
 
 
@@ -306,4 +295,215 @@
 
 #------------------------------------------------------------->
         
+# 18 sep
 
+# Find Method 
+
+# c_name = "Tops tachnogies"
+# i = c_name.find("s t")
+# print(i)   
+# i = c_name.find("s ,4 , 16")
+# print("After 4th position ",i)
+
+#find function is return the possition of sub string
+
+# print(len(c_name))
+# count = c_name.count("Tops tachnogies")
+# print("count of Tops  tachnogies is :" , count)
+
+# print(len(c_name))
+# santence = "cat is animal and dog is animal"
+# count = santence.count("animal")
+# print("count of animal is :" , count)
+
+#Replace Method
+
+# str1 = "Tops"
+# str2 = "12345"   
+# str3 ="Tops@1234" 
+# srt4 = "Tops tach"
+
+# print(str1.isdigit() , str1.isalpha() , str1.isalnum())
+# print(str2.isdigit() , str2.isalpha() , str2.isalnum()) 
+# print(str3.isdigit(), str3.isalpha() , str3.isalnum())
+# print(srt4.isdigit() , srt4.isalpha() , srt4.isalnum())
+
+# lab task 18sep ------------------------------>
+
+#print(srt1.isalpaha()) # True (only letters)
+#print(srt2.isdigit()) # True (only numbers)
+#print(srt3.isalnum()) # False ( @ symbol not allowed)
+#print(srt4.isalnum()) # False (space not allowed)          
+
+# User input
+# string_input = input("Enter a string:")
+# print(string_input.isdigit(), string_input.isalpha(), string_input.isalnum())
+
+# sentence = input("Enter sentense ")
+# print(f"{sentence} original ")
+# word = input("Enter word to replace ")
+# new_word = input("Enter new word to replace")
+# new_sentense=sentence.replace(word,new_word)
+# print(f"{new_sentense} after replacement ")
+# sentence=sentence.replace(word,new_word)
+#  print(f"{sentence} original ")
+
+
+# 20sep------------------------------------->
+
+# msg = "have a good day"
+# print(msg.endswith("!!!"))
+# email = "test@gmail.com"
+# email = input("Enter your email : ")
+# if email.endswith(".com"):
+#     print("valid email")
+# else:
+#     print("invalid email")
+
+
+#string with positive index
+
+
+# str = "This is python"
+# print(str(4))  #s
+# print(str(0))  #T
+# print(str(7))  #p
+# print(str(13)) #n 
+# print(len(str))
+
+
+# string with negative index [leb task]
+# str = "This is python"
+# print(str[-1])  #n
+# print(str[-2])  #o
+# print(str[-3])  #h
+# print(str[-4])  #y
+# print(str[-5])  #t
+# print(str[-6])  #p
+# print(str[-7])  #
+# print(str[-8])  #s
+# print(str[-9])  #i
+# print(str[-10]) #
+# print(str[-11]) #s
+# print(str[-12]) #i
+# print(str[-13]) #h
+# print(str[-14]) #T
+
+# name = input("Enter your name : ")
+# length = len(name)
+# print("Length of your name is :", length) 
+
+# for i in range(1,length+1):
+#     print(f"Character at index {-i} is: {name[-i]}")
+
+# #accessing thru index with index
+# name = input("Enter your name : ")
+# for i in name:    
+#     print(i)
+
+#chek vavol in string
+
+# str1 = input("Enter string : ")
+ 
+# vavol= 0
+# for i in range (len(str1)):
+#         if str1[i].lower() in 'aeiou':
+#             vavol +=1
+# print("vavol is :" , vavol)
+
+
+# slicing --- part/ portion 
+
+# str = "Tops Tachnologies"
+# print(str[1:5])  #ops
+# print(str[1:7])  #ops Tac     
+# print(str[0:4])  #Top
+# print(str[5:10]) #is T
+# print(str[5:])   #is Tachnologies
+# print(str[:10])  #Tops Tachn
+
+
+# upto 10 letters
+
+# print(f"{str[:10]} upto 10 letters")
+# print(f"{str[10:]} after 10 letters")
+# print(f"{str[::2]} after 2 letters")      
+# print(f"{str[::3]} alternate letters")
+
+
+
+# 23 sep --------------------------------->
+
+#slicing half string and reverseing 
+
+# Name = input("Enter your name : ")
+# total_length = len(Name)
+# half = total_length // 2
+# first_half = Name[:half]
+# last_half = Name[half:] 
+# print(f"First half: {first_half} last {last_half}")")
+# print(f"Reversed name: {Name[::-1]}")
+# print(f"Reversed first half: {first_half[::-1]}")
+
+# nam = input("Enter your name : ")
+# str =  input("Enter your name : ")  
+# length = len(str)
+# half = length // 2  
+# first_half = str[:half]
+# last_half = str[half:]  
+# print(f"{first_half} first half")
+# print(f"{last_half} last half")
+# print(f"{str[::-1]} reverse string")    
+
+#split method ----------------------------->
+
+# name = "Tops Tachnologies pvt ltd"
+# lst  = name.split()
+# print(lst)
+# lan1 = name.split("t")
+# print(f"split by t : {lan1}")
+
+
+# join method ----------------------------->
+
+
+# name = ['Tops', 'Tachnologies', 'pvt', 'ltd']
+# str = ' '.join(name)
+# print(str)
+
+#join Method No 2 ----------------------------->
+
+# name =['Apple',"banana","Cherry"]
+# fruits = " ".join(name)
+# print(fruits)
+# fruits = "*".join(name)
+# print(fruits)
+
+#strip Method ----------------------------->
+
+# name = "   Tops Tachnologies pvt ltd   "
+# print(len(name))
+# name = name.strip()
+# print(len(name))
+
+# sort method ----------------------------->
+
+# names = ['Vishwraj', 'Aniket', 'Sanket', 'Amol', 'Rohit']
+# str = sorted(names, key=len)
+# print(str)
+
+
+# print the last half string and other half
+
+# str = input("Enter your name : ")
+# length = len(str)
+# half = length // 2
+# print(f"string : {str[half:]}{str[:half]}")
+
+#List --------------------------------->
+
+num_lst1 = [1, 2 ,67, 89, 56]
+sum = 0
+for i in num_lst1:
+    sum += i
+print("Sum of elements in num_lst1:", sum)  

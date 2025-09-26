@@ -1,0 +1,14 @@
+Q 1.What the types of Applications?
+ Ans: There are three types of Applications.
+         1. Desktop Applications.
+         2. Web Applications.
+         3. Mobile Applications.
+
+1. Desktop Applications :- Desktop Applications are installed and run on personal computers,
+ offering deep integration with the device's hardware and operating system. 
+
+2. Web Applocation :- Web Applications run within a web browser over the internet,
+ providing accessibility across different devices without installation. 
+
+3. Mobile Applications :- Mobile Applications are designed specifically for smartphones and tablets,
+ leveraging device features like cameras, GPS, and sensors. 

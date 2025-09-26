@@ -1,0 +1,12 @@
+Q 2 . What is programing? 
+Ans : Programming is the process of giving instructions to a computer so it can perform specific tasks.
+    
+     It involves:  
+    
+Writing code (instructions)
+
+Debugging (fixing errors)
+
+Testing (checking if it works correctly)
+
+Improving (making it faster or easier)

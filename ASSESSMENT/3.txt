@@ -1,0 +1,4 @@
+Q 3. What is Python? 
+Ans: Python is a popular, high-level, general-purpose programming language known for its clear syntax and readability,
+making it beginner-friendly and efficient for a wide range of applications,
+including web development, data science, automation, and artificial intelligence.
