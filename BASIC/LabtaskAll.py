@@ -502,8 +502,114 @@
 
 #List --------------------------------->
 
-num_lst1 = [1, 2 ,67, 89, 56]
-sum = 0
-for i in num_lst1:
-    sum += i
-print("Sum of elements in num_lst1:", sum)  
+# num_lst1 = [1, 2 ,67, 89, 56]
+# sum = 0
+# for i in num_lst1:
+#     sum += i
+# print("Sum of elements in num_lst1:", sum)  
+
+
+# 4 oct ---------------------------------------------->
+
+# want to convert all string into upper case
+
+# lst=[2,4,6,8,10,]
+# lst= [i**2 for i in lst]
+# print(lst)
+
+#list comprehension
+
+# lst1=[2,4,6,8,10,]
+# lst2=[i for i in lst1]
+# print(lst2) #output: [2, 4, 6, 8, 10] 
+# lst3=[i*2 for i in lst1]
+# print(lst3) #output: [4, 8, 12, 16, 20]
+
+
+
+# 7 oct -------------------------------------------------->
+
+#dictionary
+# dict1 = { 1: "ahmedabad", 2: "surat", 3: "baroda", 4: "rajkot"}
+# print(dict1)
+# print = dict1.keys()
+# for k,v in dict1.items():
+#     print(f"key is {k} and value is {v}")
+# print(dict1.values())
+# print(dict1.items())
+
+# for k in dict1.keys():
+#     print(f"key is {k}")
+# for v in dict1.values():
+#     print(f"value is {v}")
+
+# dict1 = { 101 : [ Vishwraj ,  python , dholka , 30000] ,
+#           102 : [ Romil ,  java , ahmedabad , 35000] ,
+#           103 : [ Abhijit ,  php , surat , 15000] ,
+# }
+# for key , value in dict1.items():
+#     print(key)
+#     if value[3] > 20000:
+#      for i in value:
+#         print(f"\t{i}")
+
+
+
+# 11th oct ------------------------------>
+
+
+#dictionary velue in upper case
+
+# city_name = {'Ahmedabad' : "AHEMDABAD" , 'Baroda' : "BARODA" , 'Surat' : "SURAT" }
+# for key in city_name.keys():
+#     city_name[key] = city_name[key].upper()
+# print(city_name)
+
+# city_name = {'Ahmedabad' : "" , 'Baroda' : "" , 'Surat' : "" }
+# for key in city_name.keys():
+#     city_name[key] = key.upper()
+# print(city_name)
+
+#dictionary velue in length
+
+# city_name = {'Ahmedabad' : "" , 'Baroda' : "" , 'Surat' : "" }
+# for key in city_name.keys():
+#     city_name[key] = key.len()
+# print(city_name)
+
+#
+
+# sales_data = {
+#     "Pen": {"Product_discription" :"Pentonic pen" ,"price" : 10, "units_sold": 150},
+#     "Notebook":{"Product_discription" :"DOMS Notebook", "Price": 50, "units_sold": 90},
+#     "Pencil" : {"Product_discription": "DOMS pencil", "price": 5 ,"units_sold": 300}
+#     }
+# for k,v in sales_data.items():
+#     if v["units_sold"] > 100:
+#         print(f"{k} is the {v["Product_discription"]} has unit sold over 100" )
+
+
+# 14th oct--------------------------------->
+
+# dict1 = {1:0 ,2:0 , 3:0 ,4:0 }
+
+# # for k,v in dict1.items():
+# #     dict1[k]=k**2
+
+# dict2 = {k:k**2 for k ,v in dict1.items()}
+# print(dict2)
+
+
+# state_capital ={'Gujarat ' , 'Rajasthan'  , 'Maharastra'  , 'Orissa '}
+# state_capital_len = {k:len (k) for k in state_capital}
+# # print(state_capital_len)
+
+# state_capital ={"Gujarat" : "Gandhinagar", "Rajasthan" : "Jaipur " , "Maharastra": "Mumbai" , "Orissa ":"Bhuvneshvaer"}
+# state_capital_1= {k:v.upper() for k,v in state_capital.items() if len (k)> 7}
+
+
+
+# state_capital ={"Gujarat": "Gandhinagar", "Rajasthan": "Jaipur " , "Maharastra": "Mumbai" }
+# state_capital_1 = {k:v.upper() if len (v)>7 else v.lower() for k,v in state_capital.items()}
+# print(state_capital_1)
+

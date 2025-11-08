@@ -1,0 +1,24 @@
+Ans 1. name = input (" Enter The Name" ) 
+            variable is store data type . and data type is numric, boolaen, int,map,set,seq.
+
+
+Ans 2. Canditional statments for the using the statmenat it means which conaditional if else statment nested if and simle 
+             if else and elif.
+
+Ans 3.  loop allows you to run the same code again and again without writing it many times manually. and there are two type of loops.
+              1. while loop and  2. for loop
+               If the itretion of number is unkhown thet is  while loop is
+               If the number of itretion is khown thet is for loop 
+               For e.g : for i in renge (1, 100)
+                                while (i>=1)
+
+Ans 4. There are two membership operators in , not in 
+             1. in Operator
+             Returns True if the value is present in the sequence. returns False.
+             Example: str = 
+                                         
+
+
+
+
+       
