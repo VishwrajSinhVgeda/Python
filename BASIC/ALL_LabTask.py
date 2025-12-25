@@ -613,3 +613,131 @@
 # state_capital_1 = {k:v.upper() if len (v)>7 else v.lower() for k,v in state_capital.items()}
 # print(state_capital_1)
 
+# ---------------------------------------------->
+#comperition_opretor
+
+# number1 = int(input("plesae enter number1"))
+# number2 = int(input("plesae enter number2"))
+# print(number1>number2)
+# print(number1<number2)
+# print(number1>=number2)
+# print(number1<=number2)
+# print(number1!=number2)
+# print(number1==number2)
+
+# #arethmatic_opretor
+
+# a = 5
+# b = 2
+
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+# print(a % b)
+# print(a ** b)
+# print(a // b)
+
+
+# #assiment_opretor
+
+# num = 10 
+# num += 10
+# print("num :", num )
+
+# num *= 10
+# print("num :", num )
+
+# num -= 10
+# print("num :", num )
+
+# num /= 10
+# print("num :", num )
+
+# num %= 10
+# print("num :", num )
+
+# num **= 10
+# print("num :", num )
+
+# num //= 10
+# print ("num :" , num )
+
+
+# # example of hellow *5
+
+# a= input ("enter value : ")
+# print(f"{a} * 5 is {a * 5 }")
+# []
+
+
+# marks = int (input(" Enter your marks "))
+# if marks  >=90 and marks <= 100:
+#     print("You got A grede. ")
+# elif marks < 90 and marks >= 70:
+#     print("You got B grede. ")
+# elif marks < 70 and marks >= 60:
+#      print("You got C grede. ")    
+# elif marks < 60 and marks >= 50:
+#      print("You got D grede. ")   
+# else:
+#      print("You got E grede. ")
+
+
+# #------------------------------------------------->
+
+
+# print("\n1. addition : + ")
+# print("\n2. Subtraction : - ")
+# print("\n3. Multiplication : * ")
+# print("\n4. Division: / ") 
+
+# choice =int(input("Enter your choice "))
+# number1=int(input("Enter number "))
+# number2=int(input("Enter number "))
+
+# match choice:
+#     case 1:print(f"Addition is ",number1+number2)
+#     case 2:print(f"Subtraction is {number1-number2}")
+#     case 3:print(f"Multilication is {number1*number2}")
+#     case 4:print(f"Division is {number1/number2}")
+#     case 5:print(f"floor Division is {number1/number2}")
+#     case _:print("Invalid choice ")
+
+#-------------------------------------------->
+
+
+month = input("enter  a month")
+# if month=="january" or month== "march" or month=="may" or month== "july" or month=="october" or month== "Descember":
+#       print("31")     
+# elif month =="fabruary":
+#       print("28 or 29 days") 
+# elif month== "april" or month=="june" or month=="august" or month== "septamber":
+#       print("30")
+# else : 
+#       print("invalid number")
+
+
+#--------------------------------------------------------->
+# match month:
+#       case 'January' | 'March' | 'May' |'July' | 'Octomber' | 'December':
+#         print("31 days")
+#       case 'April' | 'June' | 'August' | 'September' | 'Navember':
+#         print("30 days")  
+#       case 'February':
+#         print("28 or 29 days")
+#       case _ :
+#             print("Invelid Number")
+
+#--------------------------------------------------------->
+
+
+# if month in ('January' ,  'March','may' , 'July' , "Descember"): 
+#       print("31 days")
+# elif month== "Fabruary":
+#      print ("28 or 29 days")
+# elif month in ("April" ,"June" , 'August' , 'Septamber'):
+#      print("30 days")
+# else :
+#     print("Invelid Number")
+

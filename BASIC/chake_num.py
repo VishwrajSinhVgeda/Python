@@ -1,22 +1,22 @@
-# def chekeEvan(num):
-#     if num % 2 == 0:
-#         return True
-#     else:
-#          return False
+def chekeEvan(num):
+    if num % 2 == 0:
+        return True
+    else:
+         return False
     
 
-# def positive (num):
-#     if num >=0 :
-#         return True
-#     else:
-#         return False
+def positive (num):
+    if num >=0 :
+        return True
+    else:
+        return False
     
     
-# def isprime(num):
-#     for i in range(2,num):
-#         return True
-#     else: 
-#          return False
+def isprime(num):
+    for i in range(2,num):
+        return True
+    else: 
+         return False
 
 
 num=100

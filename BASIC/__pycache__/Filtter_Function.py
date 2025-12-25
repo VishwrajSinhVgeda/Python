@@ -57,3 +57,7 @@ def c_to_f(celsius):
 lst_celsius = [0, 20, 37, 100]
 lst_fahrenheit = list(map(c_to_f, lst_celsius))
 print(lst_fahrenheit)
+
+#Using with lambda function
+lst_fahrenheit = list(map(lambda celsius: (celsius * 9/5) + 32, lst_celsius))
+print(lst_fahrenheit)
